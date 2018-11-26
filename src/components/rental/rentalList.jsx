@@ -10,15 +10,12 @@ class RentalList extends Component {
   }
 
   renderRentals() {
-    debugger;
     return this.state.rentals.map(rental => {
-      debugger;
       return <RentalCard key={rental} />;
     });
   }
 
   render() {
-    debugger;
     return (
       <section id="rentalListing">
         <h1 className="page-title">Your Home All Around the World</h1>
